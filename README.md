@@ -10,7 +10,7 @@ A lightweight computer vision system that distinguishes between **real photograp
 
 **Streamlit App**
 
-https://YOUR-STREAMLIT-APP.streamlit.app
+https://spotscreenimage.streamlit.app/
 
 ---
 
