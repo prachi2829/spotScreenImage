@@ -40,7 +40,9 @@ if uploaded is not None:
 
     st.progress(float(score))
 
-    if score > 0.5:
-        st.error(f"Photo of Screen ({score:.2f})")
+    st.write(f"Score: **{score:.2f}**")
+
+    if score >= 0.5:
+        st.error("Prediction: Photo of a Screen")
     else:
-        st.success(f"Real Photo ({1-score:.2f})")
+        st.success("Prediction: Real Photo")
